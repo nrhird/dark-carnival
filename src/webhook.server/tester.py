@@ -3,7 +3,7 @@ import requests
 
 
 def webhook():
-    url = "http://127.0.0.1:8000/webhook"
+    url = "http://127.0.0.1:9876/webhook"
 
     payload = {
         "FirstName": "First",
@@ -24,7 +24,7 @@ def webhook():
 
 
 def event():
-    url = "http://127.0.0.1:8000/event"
+    url = "http://127.0.0.1:9876/event"
 
     payload = {
         "event": "event-update",
